@@ -70,11 +70,9 @@ section{
 
 
 @media screen and (max-width: 800px) {
-    .container{
+    .container, .small, section{
         width: 80vw;
     }
-    .small{
-        width: 80vw;
-    }
+
 }
 
