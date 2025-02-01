@@ -16,8 +16,9 @@
     <section>
             <!-- Add task input-->
     <div class="container">
-        <input class="input" id="input" type="text">
-        <button class="btn1" id="btn">Add</button>
+        <input class="input" id="input" type="text" placeholder="Add Task">
+        <input class="input" id="description" type="text" placeholder="Description">
+        <button id="btn">Add</button>
     </div>
 
     <!--Tasks Table -->
@@ -26,7 +27,10 @@
           <tr>
             <th scope="col">#</th>
             <th scope="col">Task</th>
+            <th scope="col">Description</th>
+            <th scope="col">Status</th>
             <th scope="col">Delete</th>
+            <th scope="col">Edit</th>
           </tr>
         </thead>
         <tbody id="tbody">
